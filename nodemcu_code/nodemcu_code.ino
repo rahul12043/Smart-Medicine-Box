@@ -6,7 +6,7 @@ SoftwareSerial arduinoSerial(D5, D6); // RX=D5, TX=D6
 
 const char* ssid = "your_wifi_name";
 const char* password = "your_password";
-const char* serverUrl = "http://192.168.111.68:5000";
+const char* serverUrl = "localhost:5000";
 
 void setup() {
   Serial.begin(115200);
